@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.unica.euforici.ragazzieuforici">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Activity principale -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DatiAnagrafici"
+            android:exported="true"
+            android:label="@string/title_activity_datianagrafici"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelezionaData"
+            android:exported="true"
+            android:label="SelezionaData"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CercaRifiuti"
+            android:exported="true"
+            android:label="@string/title_activity_cerca"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfermaDati"
+            android:exported="true"
+            android:label="@string/title_activity_conferma_dati"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Riepilogo"
+            android:exported="true"
+            android:label="@string/title_activity_riepilogo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinePrenotazione"
+            android:exported="true"
+            android:label="@string/title_activity_fineprenotazione"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CancellaPrenotazione"
+            android:exported="true"
+            android:label="@string/title_activity_cancellaprenotazione"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Regole"
+            android:exported="true"
+            android:label="@string/title_activity_regole"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModificaData"
+            android:exported="true"
+            android:label="@string/title_activity_modifica_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinePrenotazioneData"
+            android:label="@string/title_activity_fineprenotazionedata"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true"/>
+    </application>
+
+</manifest>

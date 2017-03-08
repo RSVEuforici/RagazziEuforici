@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+   </string-array>
+    
+    <string-array name="oggetti">
+
+        <item>Friggitrice</item>
+        <item>Armadio</item>
+        <item>Anta Armadio</item>
+        <item>Acquario</item>
+        <item>Asse da Stiro</item>
+        <item>Alimentatore</item>
+        <item>Alimentatore</item>
+        <item>Altalena</item>
+        <item>Angoliera</item>
+        <item>Anta Box Doccia</item>
+        <item>Antenna</item>
+        <item>Antenna Parabolica</item>
+        <item>Appendiabiti</item>
+        <item>Armadietto</item>
+        <item>Armadio a Ponte</item>
+        <item>Asciugatrice</item>
+        <item>Aspirapolvere</item>
+        <item>Asta di ferro</item>
+        <item>Attrezzi Giardino</item>
+        <item>Attrezzi Ginnici</item>
+        <item>Avvolgibile</item>
+        <item>Bacheca</item>
+        <item>Banco Scuola</item>
+        <item>Bancone Negozio</item>
+        <item>Barbeque</item>
+        <item>Base Tavolo</item>
+        <item>Baule</item>
+        <item>Baule di Plastica</item>
+        <item>Bicchieri</item>
+        <item>Bicicletta</item>
+        <item>Bidone Metallico</item>
+        <item>Bilancia Elettronica</item>
+        <item>Bilancia Farmacia</item>
+        <item>Biliardino</item>
+        <item>Bilancia Meccanica</item>
+        <item>Bob</item>
+        <item>Base Ombrellone</item>
+        <item>Box Bimbo</item>
+        <item>Box Doccia</item>
+        <item>Brandina</item>
+        <item>Bastone Tenda</item>
+        <item>Battiscopa</item>
+        <item>Buffet</item>
+        <item>Casse Audio coppia</item>
+        <item>CassaForte</item>
+        <item>Calcolatrice</item>
+        <item>Cancelletto Metallo</item>
+        <item>Canalina</item>
+        <item>Canoa</item>
+        <item>Cappa Aspiratrice</item>
+        <item>Cappottina Negozio</item>
+        <item>Caldaia per Riscaldamento</item>
+        <item>Carriola</item>
+        <item>Carrozzina</item>
+        <item>Cartoni</item>
+        <item>Cartellone Pubblicitario</item>
+        <item>Casco Moto</item>
+        <item>Casco Parrucchiere</item>
+        <item>Cassettiera  Montata</item>
+        <item>Cassetta</item>
+        <item>Cassetta Legno</item>
+        <item>Cassettone Letto</item>
+        <item>Cassettiera in Vimini</item>
+        <item>Catalogatore Metallo</item>
+        <item>Cavalletto</item>
+        <item>Contro Buffet</item>
+        <item>Credenza Smontata</item>
+        <item>Cerchione</item>
+        <item>Centralina Telefonica</item>
+        <item>Celetto</item>
+        <item>Cesta in Vimini</item>
+        <item>Copri Caldaia</item>
+        <item>Comodino</item>
+        <item>Colonne da Giardino</item>
+        <item>Comodino</item>
+        <item>Como`</item>
+        <item>Condizionatore</item>
+        <item>Congelatore a Pozzetto</item>
+        <item>Copri Termosifone</item>
+        <item>Cassapanca</item>
+        <item>Carrello Porta Vivande</item>
+        <item>Credenza</item>
+        <item>Cristalliera</item>
+        <item>Cassetti</item>
+        <item>Cubo Legno</item>
+        <item>Cuccia per Animali</item>
+        <item>Culla</item>
+        <item>Cuscino</item>
+        <item>Cuscino</item>
+        <item>Carrozzella Chiudibile</item>
+        <item>Divano</item>
+        <item>Damigiana</item>
+        <item>Damigiana</item>
+        <item>Deambulatore</item>
+        <item>Decespugliatore</item>
+        <item>Dondolo</item>
+        <item>Espositori Negozio</item>
+        <item>Finestra con Telaio</item>
+        <item>Fasciatoio per Neonati</item>
+        <item>Fascina Metallo</item>
+        <item>Fascina Plastica</item>
+        <item>Ferro da Stiro</item>
+        <item>Forno ad Incasso</item>
+        <item>Fioriera Ferro</item>
+        <item>Fioriera Plastica</item>
+        <item>Forno a Microonde</item>
+        <item>Fotocopiatrice</item>
+        <item>Frigorifero</item>
+        <item>Frigorifero Americano</item>
+        <item>Frigo Bar</item>
+        <item>Frigorifero Combinato</item>
+        <item>Friggitrice</item>
+        <item>Frigo Negozio</item>
+        <item>Fusti</item>
+        <item>Gabbia per Uccelli</item>
+        <item>Giocattolo</item>
+        <item>Girello</item>
+        <item>GiroLetto</item>
+        <item>Grate per Finestra</item>
+        <item>Grondaia</item>
+        <item>Grata per Piante</item>
+        <item>Grata a Porta</item>
+        <item>Gruppo Continuita`</item>
+        <item>Impianto Hi - Fi</item>
+        <item>Incannucciata</item>
+        <item>Insegna Luminosa</item>
+        <item>Lavello</item>
+        <item>Lamiera a Pezzi</item>
+        <item>Lampadario</item>
+        <item>Lampada</item>
+        <item>Lastra di Vetro</item>
+        <item>Lavagna</item>
+        <item>Lavello in Acciaio</item>
+        <item>Lavello Parrucchiere</item>
+        <item>Libreria</item>
+        <item>Lucidatrice</item>
+        <item>Lettore DVD</item>
+        <item>Lettore CD Portatile</item>
+        <item>Lettino Medico</item>
+        <item>Letto a Castello</item>
+        <item>Lettino a Sbarre</item>
+        <item>Libreria in Vimini</item>
+        <item>Lavastoviglie</item>
+        <item>Lavatrice</item>
+        <item>Materasso</item>
+        <item>Macchina per il Caffè</item>
+        <item>Macchinari Aziendali</item>
+        <item>Macchina da Cucire</item>
+        <item>Mantovana</item>
+        <item>Macchina per Maglieria</item>
+        <item>Macchina da Palestra</item>
+        <item>Materassino Mare</item>
+        <item>Macchina da Scrivere</item>
+        <item>Mensole di Legno</item>
+        <item>Materiale Elettrico</item>
+        <item>Mensole di Metallo</item>
+        <item>Mensole di Plastica</item>
+        <item>Macchina del Gas</item>
+        <item>Mobile Bagno</item>
+        <item>Mobiletto</item>
+        <item>Mobiletto Metallo</item>
+        <item>Mobiletto Plastica</item>
+        <item>Mobile Bagno</item>
+        <item>Mobile</item>
+        <item>Mobile per Hi-Fi</item>
+        <item>Mostre</item>
+        <item>Mobile Letto</item>
+        <item>Moquette</item>
+        <item>Mobile Sala</item>
+        <item>Mobile porta TV</item>
+        <item>Mobile Sala</item>
+        <item>Mobile TV</item>
+        <item>Ombrellone</item>
+        <item>Persiana</item>
+        <item>Pannello di Compensato</item>
+        <item>Panca Fitness</item>
+        <item>Pannello Cartongesso</item>
+        <item>Panca</item>
+        <item>Pallet</item>
+        <item>Paletto Legno</item>
+        <item>Paralume</item>
+        <item>Pannello Polistirolo</item>
+        <item>Parquet</item>
+        <item>Passeggino</item>
+        <item>Hard Disk</item>
+        <item>Ram,Schede di rete</item>
+        <item>Computer,Case, Tower</item>
+        <item>Computer Monitor</item>
+        <item>Notebook</item>
+        <item>Piano Cottura</item>
+        <item>Computer Tastiera</item>
+        <item>Pensile o Base</item>
+        <item>Pensile Bagno</item>
+        <item>Pentole Varie</item>
+        <item>Porta Finestra</item>
+        <item>Piante Finte</item>
+        <item>Piatti</item>
+        <item>Porta Bagagli</item>
+        <item>Porta Blindata</item>
+        <item>Posacenere</item>
+        <item>Porta da interno</item>
+        <item>Poltroncina</item>
+        <item>Poltrona Dentista</item>
+        <item>Portoncino</item>
+        <item>Poltrona</item>
+        <item>Poltrone</item>
+        <item>Porta Metallica</item>
+        <item>Pompa Idraulica</item>
+        <item>Porta Ombrelli</item>
+        <item>Porta a Soffietto</item>
+        <item>PortaVetri</item>
+        <item>Porta Vasi</item>
+        <item>Piano Tavolo</item>
+        <item>Puff</item>
+        <item>Quadro</item>
+        <item>Quadro Elettrico</item>
+        <item>Raccoglitore</item>
+        <item>Radiatore</item>
+        <item>Radio Portatile</item>
+        <item>Radio Registratore</item>
+        <item>Rete letto</item>
+        <item>Registratore di Cassa</item>
+        <item>Remi</item>
+        <item>Rete Metallica a Rullo</item>
+        <item>Rilegatrice</item>
+        <item>Ringhiera</item>
+        <item>Robot da Cucina</item>
+        <item>Rotolo Tenda da Sole</item>
+        <item>Ruote Bici</item>
+        <item>Sacco Mat Elettrico</item>
+        <item>Sacco Polistirolo</item>
+        <item>Sacco Segatura</item>
+        <item>Sacco Vetro</item>
+        <item>Sacco Legno</item>
+        <item>Sacco con Plastica</item>
+        <item>Sacco con Argilla</item>
+        <item>Scaffaletto Legno</item>
+        <item>Sacco Carta</item>
+        <item>Scala</item>
+        <item>Sacco Carta</item>
+        <item>Scarpiera</item>
+        <item>Scaldabagno</item>
+        <item>Scatola con Carta</item>
+        <item>Scatola con App. Elettroniche</item>
+        <item>Sci con Racchette</item>
+        <item>Scivolo</item>
+        <item>Scatola con Legno</item>
+        <item>Scatolone Legno</item>
+        <item>Scrivania  Smontata</item>
+        <item>Scaffalatura Metallica</item>
+        <item>Scatolone Metallo</item>
+        <item>Scaffalatura</item>
+        <item>Scatolone Plastica</item>
+        <item>Scrivania</item>
+        <item>Scarpiera Smontata</item>
+        <item>Scatolone Carta</item>
+        <item>Sedia a Dondolo</item>
+        <item>Sedia</item>
+        <item>Sedia a Rotelle</item>
+        <item>Seggiolone Bimbo</item>
+        <item>Secchio di Metallo</item>
+        <item>Seggiolino Auto</item>
+        <item>Sedia Pieghevole</item>
+        <item>Secchio di Plastica</item>
+        <item>Serranda</item>
+        <item>Sacco Ferro</item>
+        <item>Sgabello</item>
+        <item>Slittino</item>
+        <item>Scatola con Metallo</item>
+        <item>Specchio</item>
+        <item>Sportello</item>
+        <item>Scatola con Plastica</item>
+        <item>Sacco Plastica</item>
+        <item>Sponde Letto</item>
+        <item>Sacco con Argilla</item>
+        <item>Stampante</item>
+        <item>Struttura Ferro</item>
+        <item>Stendino</item>
+        <item>Sottolavello</item>
+        <item>Strumenti Musicali</item>
+        <item>Stufa Elettrica</item>
+        <item>Supporto TV</item>
+        <item>Freezer</item>
+        <item>Testata</item>
+        <item>Tavolo</item>
+        <item>Taglia Erba Elettrico</item>
+        <item>Tavola di Legno</item>
+        <item>Tavolette di Legno</item>
+        <item>Tanica</item>
+        <item>Tapis Roulants</item>
+        <item>Tavolette di Plastica</item>
+        <item>Tappeto</item>
+        <item>Tavolo Disegno</item>
+        <item>Tavolo in Vimini</item>
+        <item>Tavolino Pieghevole</item>
+        <item>Tavola Surf</item>
+        <item>Testata</item>
+        <item>Teli Nylon</item>
+        <item>Telaio Porte</item>
+        <item>Telefoni</item>
+        <item>Tenda Sole</item>
+        <item>Teli Nylon</item>
+        <item>Termosifone</item>
+        <item>Fax</item>
+        <item>Top Cucina</item>
+        <item>Toletta</item>
+        <item>Trita Documenti</item>
+        <item>Triciclo</item>
+        <item>Trepiedi</item>
+        <item>Tubo Metallico</item>
+        <item>Tubi un pezzo</item>
+        <item>Televisore TV</item>
+        <item>Tavolino Basso</item>
+        <item>Tavolette di Metallo</item>
+        <item>Valigia</item>
+        <item>Vasca da bagno</item>
+        <item>Ventilatore</item>
+        <item>Vetrina Negozio</item>
+        <item>Videoregistratore</item>
+        <item>Zanzariera</item>
+
+
+   </string-array>
+</resources>

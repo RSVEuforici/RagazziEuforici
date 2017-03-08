@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="it.unica.euforici.ragazzieuforici.DatiAnagrafici">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="fill_parent">
+
+
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:background="#127932"
+            android:backgroundTint="#fff" >
+
+            <!--toolbar verde scuro Prenotazione-->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:background="?attr/colorPrimary"
+                    android:backgroundTint="#127932"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:title="@string/toolbar"
+                    android:elevation="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/help2"
+                    android:id="@+id/imageView16"
+                    android:background="#127932"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="13dp"
+                    android:onClick="help"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/step1b"
+                android:id="@+id/imageView8"
+                android:layout_weight="1"
+                android:elevation="14dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp" />
+
+        </android.support.design.widget.AppBarLayout>
+
+            <!--dichiaro la card view e annido all'interno tutti gli elementi che devono stare dentro la card view-->
+            <android.support.v7.widget.CardView
+                app:cardElevation="5dp"
+                app:cardCornerRadius="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <!--dichiaro il linear Layout in modo che ogni elemento inserito venga messo uno sotto l'altro-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+
+                    <!--seconda toolbar verde chiaro Dati Anagrafici-->
+                    <android.support.v7.widget.Toolbar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#9CCB3D"
+                        android:theme="?attr/actionBarTheme"
+                        android:minHeight="?attr/actionBarSize"
+                        android:id="@+id/toolbarDatiAnagrafici"
+                        app:title="Inserisci i tuoi dati"
+                        android:layout_gravity="center" />
+
+                    <!--Qui sotto sono presenti tutti i campi che l'utente dovrà inserire, nome cognome indirizzo e mail-->
+
+                    <TextView
+                        android:text="@string/nome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nome"
+                        android:textColor="#7B7B7B"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="es: Paolo"
+                        android:ems="10"
+                        android:id="@+id/insNome"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="15dp"
+                        android:elevation="0dp"
+                        android:autoText="false"
+                        android:drawableRight="@drawable/user"
+                        android:drawablePadding="2dp"
+                        />
+
+                    <TextView
+                        android:text="@string/cognome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cognome"
+                        android:textColor="#7B7B7B"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="es: Rossi"
+                        android:ems="10"
+                        android:id="@+id/insCognome"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="15dp"
+                        android:drawableRight="@drawable/user"
+                        android:drawablePadding="2dp"
+                        />
+
+                    <TextView
+                        android:text="@string/indirizzo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Indirizzo"
+                        android:textColor="#7B7B7B"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="es: Via Roma 15"
+                        android:ems="10"
+                        android:id="@+id/insIndirizzo"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="15dp"
+                        android:drawableRight="@drawable/add"
+                        android:drawablePadding="2dp" />
+
+                    <TextView
+                        android:text="@string/telefono"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/telefono"
+                        android:textColor="#7B7B7B"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:ems="10"
+                        android:id="@+id/insTelefono"
+                        android:hint="es: 070 683320 "
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="15dp"
+                        android:drawableRight="@drawable/tel"
+                        android:drawablePadding="2dp" />
+
+
+                    <TextView
+                        android:text="@string/mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Mail"
+                        android:textColor="#7B7B7B"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/insMail"
+                        android:hint="es: paolorossi@gmail.com"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="15dp"
+                        android:drawableRight="@drawable/mail"
+                        android:drawablePadding="2dp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.90">
+
+                        <CheckBox
+                            android:layout_height="40dp"
+                            android:id="@+id/checkBox"
+                            android:paddingLeft="30dp"
+                            android:paddingTop="40dp"
+                            android:layout_width="40dp"
+                            android:layout_marginLeft="9dp"
+                            android:layout_alignParentTop="true" />
+
+                        <TextView
+                            android:text="Acconsento al trattamento dei miei dati secondo la normativa sulla Privacy. *"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView"
+                            android:layout_toEndOf="@+id/checkBox"
+                            android:paddingTop="5dp"
+                            android:paddingRight="10dp"
+                            android:textSize="12sp"
+                            android:layout_toRightOf="@+id/checkBox"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignBottom="@+id/checkBox"
+                            android:textColor="#727272" />
+
+                        <TextView
+                            android:text="Tutti i campi sono obbligatori "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/checkBox"
+                            android:layout_alignLeft="@+id/avanti"
+                            android:layout_alignStart="@+id/avanti"
+                            android:id="@+id/textView4"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="3dp" />
+
+                        <Button
+                            android:text="@string/avanti"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/avanti"
+                            android:onClick="inviaDati"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="73dp"
+                            android:layout_marginBottom="15dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

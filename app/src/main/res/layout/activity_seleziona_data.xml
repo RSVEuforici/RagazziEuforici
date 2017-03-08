@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="it.unica.euforici.ragazzieuforici.SelezionaData">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="434dp">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:backgroundTint="?attr/colorBackgroundFloating">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:title="Data Ritiro"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/help2"
+                    android:id="@+id/imageView19"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginBottom="13dp"
+                    android:onClick="help"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/step3b"
+                android:id="@+id/imageView10"
+                android:layout_weight="1"
+                android:layout_marginTop="3dp" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9CCB3D"
+                android:theme="?attr/actionBarTheme"
+                android:minHeight="?attr/actionBarSize"
+                android:id="@+id/toolbar3"
+                android:layout_weight="1"
+                app:title="Seleziona Data" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="56dp"
+                android:layout_height="60dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:onClick="onRadioButtonClicked"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="Martedi 14 Febbraio"
+                        android:layout_width="match_parent"
+                        android:id="@+id/textView2"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:text="Ritiro entro le ore 6:00"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView5" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="56dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2"
+                    android:layout_marginTop="73dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:onClick="onRadioButtonClicked"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="Giovedi 16 Febbraio"
+                        android:layout_width="match_parent"
+                        android:id="@+id/textView7"
+                        android:layout_marginTop="72dp"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:text="Ritiro entro le ore 6:00"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dip"
+                android:background="#E7E7E7"
+                android:layout_marginTop="116dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="56dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton1"
+                    android:layout_marginTop="133dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:onClick="onRadioButtonClicked" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="Venerdi 17 Febbraio"
+                        android:layout_width="match_parent"
+                        android:id="@+id/textView3"
+                        android:layout_marginTop="132dp"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:text="Ritiro entro le ore 6:00"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView10" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dip"
+                android:background="#E7E7E7"
+                android:layout_marginTop="176dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dip"
+                android:background="#E7E7E7"
+                android:layout_marginTop="236dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dip"
+                android:background="#E7E7E7"
+                android:layout_marginTop="260dp" />
+
+            <TextView
+                android:text="PROSEGUI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aggiungirifiuto"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textColorHint="@android:color/holo_orange_dark"
+                android:layout_weight="1"
+                android:layout_marginTop="270dp"
+                android:layout_below="@+id/descrizioneelettrodomestici"
+                android:layout_alignLeft="@+id/descrizioneelettrodomestici"
+                android:layout_marginRight="15dp"
+                android:layout_alignStart="@+id/descrizioneelettrodomestici"
+                android:layout_marginLeft="220dp"
+                android:textSize="18sp"
+                android:onClick="confermaData"
+                android:textAlignment="textEnd" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="305dp">
+
+                <ImageView
+                    app:srcCompat="@drawable/doppiodown"
+                    android:id="@+id/imageView9"
+                    android:layout_marginTop="244dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="92dp"
+                    android:layout_width="22dp"
+                    android:layout_height="9dp" />
+
+                <TextView
+                    android:text="Visualizza altre date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:layout_weight="0.46"
+                    android:layout_marginTop="239dp"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="13sp"
+                    android:textColor="#727272" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

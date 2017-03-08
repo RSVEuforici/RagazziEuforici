@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Alig@app</string>
+    <string name="stepper">MaterialStepper</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- stringhe dell'activity main -->
+    <string name="toolbarRifiuti">Rifiuti Ingombranti</string>
+    <string name="toolbarPrenotaRitiro">Prenota Ritiro</string>
+    <string name="testoBenvenuto">Con l&#8217;applicazione per il ritiro dei Rifiuti Ingombranti del Comune di Cagliari,
+                                    puoi effettuare una nuova prenotazione di ritiro oppure consultare le prenotazioni già effettuate.</string>
+    <string name="bottoneNuovaPrenot">Prenota Ora</string>
+    <string name="toolbarPrenotEffet">Prenotazioni Effettuate</string>
+    <string name="testoPrenotazioni">Tramite questa sezione potrai gestire le prenotazioni che hai effettuato.</string>
+    <string name="testoNoPrenotazioni">Attenzione: Non hai ancora effettuato una prenotazione</string>
+    <string name="catPrimoRifiuto">Prenotazione</string>
+    <string name="primoRifiuto">Data ritiro: 27/02/2017</string>
+
+
+    <!-- Stringhe dell'activity DatiAnagrafici -->
+    <string name="title_activity_datianagrafici">datianagrafici</string>
+    <string name="toolbar">Prenotazione</string>
+    <string name="toolbar2">Conferma Dati</string>
+    <string name="toolbarDatiAnagrafici">Dati Anagrafici</string>
+    <string name="nome">Nome </string>
+    <string name="insNome">Inserisci Nome</string>
+    <string name="cognome">Cognome </string>
+    <string name="insCognome">Inserisci Cognome</string>
+    <string name="indirizzo">Indirizzo </string>
+    <string name="insIndirizzo">Inserisci Indirizzo</string>
+    <string name="telefono">Telefono </string>
+    <string name="instelefono">Inserisci N° di Telefono</string>
+    <string name="mail">Mail </string>
+    <string name="insMail">Inserisci il tuo indirizzo Mail</string>
+    <string name="avanti">Avanti</string>
+    <string name="title_activity_selezrifiuti">selezrifiuti</string>
+
+
+    <string name="grandelettrodomestici">Grandi Elettodomestici </string>
+    <string name="piccoliettrodomestici">Piccoli Ettrodomestici </string>
+    <string name="descrizioneelettrodomestici">ES: Lavatrici, Lavastoviglie, Frigo, Freezer, TV, Forni, etc.</string>
+    <string name="descrizionepiccelettrodomestici">ES: Frullatori, Phon, Ferro da Stiro, cellulari, aspirapolvere, Consolle, hi-fi </string>
+    <string name="aggiungirifiuto">AGGIUNGI RIFIUTO</string>
+    <string name="rimuovi">RIMUOVI</string>
+    <string name="title_activity_date">Date</string>
+
+
+    <string name="toolbardata">Seleziona Data</string>
+    <string name="title_activity_cerca">cerca</string>
+    <string name="title_activity_conferma_dati">ConfermaDati</string>
+    <string name="title_activity_riepilogo">Riepilogo</string>
+    <string name="title_activity_fineprenotazione">fineprenotazione</string>
+    <string name="title_activity_cancellaprenotazione">cancellaprenotazione</string>
+    <string name="title_activity_regole">Regole</string>
+    <string name="title_activity_modifica_data">modifica_data</string>
+    <string name="title_activity_fineprenotazionedata">fineprenotazionedata</string>
+
+
+    <string name="regole">Il <b> Comune di Cagliari </b> ha predisposto un servizio di raccolta gratuito previa prenotazione tramite APP per Smartphone.
+
+    \n\nIl ritiro dei rifiuti ingombranti avviene su richiesta eseguendo pochi semplici passaggi:
+        \n\n1) <b>inserendo</b> i propri dati anagrafici;
+        \n2) inserendo i rifiuti da conferire;
+        \n3) fissando il giorno per il ritiro.
+
+    \n\nI cittadini rispetto alle prenotazione telefonica possono prenotare anche durante il weekend o negli orari di chiusura del call center senza alcun problema.
+
+    \n\nOgni cittadino, a ogni richiesta di ritiro, può smaltire gratuitamente un <b> massimo di 3 ingombranti </b> a scelta per prenotazione.
+
+    \nBisognerà lasciare di fronte al proprio portone di ingresso o al numero civico della propria abitazione, gli ingombranti concordati, posizionati in maniera tale che non siano di intralcio a veicoli e pedoni:
+
+    \n\nTutti gli appuntamenti sono fissati dalle <b> ore 6.00</b>, e quindi possibile lasciare il materiale a partire da quell ora oppure in alternativa dopo le ore 20.00 del giorno prima del ritiro.
+
+</string>
+
+
+
+</resources>

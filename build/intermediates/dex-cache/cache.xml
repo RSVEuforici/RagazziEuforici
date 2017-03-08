@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\95db8098f8a76b71754c318c536d78236468a9a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_206980a330faec9b01002c1a047a579b9be92820\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\7b613b9e37845b66df39aedca9843beddf27001d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e7c23c2fd6e5397c1b166c64089c067978d4238e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\5648b271aafe4b4726c4682581529a2d10fa76fd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1f95b0d76b8941577ad0ce807bd9e12fd39bfd9">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1ab46a84f47623d5a096e30d0a4f1f12379c4bef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\ae221d1e3cda582418b12aa3721479ffa0790cd7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f6a690346ba13318129cdfb381853402c3b2109\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\IUM\RagazziEuforici\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="985c70761f027404cca5914c66d12eabd3b39b11">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ab0f7c806c3009e287bb57abb758ef3d593dde2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\dc174d57b78fb7199fb8b1eebdd12a4c61f68e7c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_88f29b538b0314e1bad800b3cbf1176690a0ed2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\ea7ecaae5eaa9112466870e3d271510d8fbab422\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cae49e01ef423b49516c6bc3ea8c32ad4b620f19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\56457bc82d0ca05edb6c844e1262901e6f407670\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ceb0887521a2f9c2eee32cf89179849da6ebede\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\f48eb7709e6ffe95ccf9d37dcd4435cfa9853a60\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3104e16f96d74ecc681ce010a29c700319bbc9f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\8cdc7c2cdf078995ec07043a20b236ed1ee43bdd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_209e056d3f7dad0d5c7e3c9084de7a2d38ee90ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\bd3f9fc9fe116e346f8f5dc2a2229cae7ab064c0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32eb48690d1b4a799a9cf89843b4238e6dbacce5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\c86be76804e00c2492a922f895aea568e66052d7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71d6b7f7c1df099183934c14dfdc01462d4e2189\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\5f5ad927143cfd09b62a200fc32eadfcfde10e38\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_381fb186b0ac80e4e21e31991885e8a9cc474fbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_ecb39451763da472ccd871fe127812dfdb74a526\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\34ea7898525a22dbfaa4adb841546bbf73d80c69\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_59e55fa84f10b30b1ca56d6e3d5a950fcd17ec1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\IUM\RagazziEuforici\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dedd4e170b690a1bff97d8ab2fe687d97e9af5dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\baboo\.android\build-cache\48c4bfda8cc9ddab87313d2bd65e83122f76119d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\IUM\RagazziEuforici\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_caac65b7981b5e4e05a0578bb580b93435964631\classes.dex" />
+    </item>
+
+</items>

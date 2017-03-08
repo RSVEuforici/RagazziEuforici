@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="it.unica.euforici.ragazzieuforici.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <!--toolbar verde scuro-->
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:background="@android:color/white"
+            android:backgroundTint="#127932">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbarRifiuti"
+                    android:layout_width="300dp"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@android:color/white"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    android:backgroundTint="#127932"
+                    app:title="@string/toolbarRifiuti"
+                    app:subtitle="Comune di Cagliari"
+                    android:elevation="0dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    card_view:srcCompat="@drawable/help2"
+                    android:id="@+id/imageView21"
+                    android:paddingBottom="13dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="13dp"
+                    android:onClick="help"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <!--dichiaro le card view e inserisco gli elementi annidati dentro la card view-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            card_view:cardElevation="5dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <!-- Imposto il linealayout per mettere ogni elemento uno sotto l'altro-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <!-- Toolbar della cardview, Prenota ritiro verde chiaro-->
+                <android.support.v7.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:theme="?attr/actionBarTheme"
+                    android:minHeight="?attr/actionBarSize"
+                    android:id="@+id/toolbarPrenotaRitiro"
+                    android:backgroundTint="#9CCB3D"
+                    card_view:title="@string/toolbarPrenotaRitiro"
+                    android:layout_weight="1" />
+
+                <!-- Campo testo dove si informa l'utente su come effettuare una nuova prenotazione -->
+                <TextView
+                    android:text="@string/testoBenvenuto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/testoBenvenuto"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#727272"
+                    android:textSize="15sp" />
+
+                <!-- Bottone aggiungi prenotazione, per inserire una nuova prenotazione, bisogna ancora linkare questo bottone con l'activity data anagrafici-->
+
+                <Button
+                    android:text="@string/bottoneNuovaPrenot"
+                    android:id="@+id/bottoneNuovaPrenot"
+                    android:layout_weight="0.30"
+                    android:onClick="nuovaPrenotazione"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="43dp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- Inserisco una spaziatura -->
+        <Space android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+
+        <!-- Dichiaro la seconda card view e inserisco al loro interno gli elementi per consultare le prenotazioni già effettuate -->
+        <android.support.v7.widget.CardView
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@android:color/white"
+            android:paddingTop="10dp"
+            card_view:cardElevation="5dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+            <!-- Imposto il linear layout-->
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <!-- Toolbar della seconda card view, Prenotazioni Effettuate-->
+
+                <android.support.v7.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:theme="?attr/actionBarTheme"
+                    android:minHeight="?attr/actionBarSize"
+                    android:id="@+id/toolbarPrenotEffet"
+                    android:backgroundTint="#9CCB3D"
+                    card_view:title="@string/toolbarPrenotEffet" />
+
+                <!-- Descrizione di cosa può fare l'utente all'interno di questa card view-->
+
+                <TextView
+                    android:text="@string/testoPrenotazioni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/testoPrenotazioni"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#727272"
+                    android:textSize="15sp" />
+
+
+                <!-- Imposto il layout relativo poichè l'immagine deve stare a sinistra del desto-->
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dip"
+                    android:background="#E7E7E7"
+                    android:layout_marginTop="1dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.08"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/prova2"
+                        android:layout_marginTop="5dp">
+
+                        <!-- Inserisco l'immagine e la vado a pescare dalla cartella drawable -->
+
+
+                        <TextView
+                            android:id="@+id/catPrimoRifiuto"
+                            android:layout_width="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/catPrimoRifiuto"
+                            android:textSize="16sp"
+                            android:paddingLeft="15dp"
+                            android:layout_alignWithParentIfMissing="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:textColor="@android:color/black"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/primoRifiuto" />
+
+                        <TextView
+                            android:id="@+id/primoRifiuto"
+                            android:layout_width="fill_parent"
+                            android:layout_height="26dip"
+                            android:ellipsize="marquee"
+                            android:text="@string/primoRifiuto"
+                            android:textSize="14sp"
+                            android:textColor="#727272"
+                            android:paddingLeft="7dp"
+                            android:layout_toRightOf="@+id/imageView3"
+                            android:layout_alignTop="@+id/imageView3"
+                            android:paddingTop="4dp"
+                            android:layout_alignBottom="@+id/imageView3" />
+
+                        <ImageView
+                            card_view:srcCompat="@android:drawable/ic_menu_today"
+                            android:layout_alignParentTop="false"
+                            android:id="@+id/imageView3"
+                            android:layout_marginTop="20dp"
+                            android:layout_alignParentLeft="false"
+                            android:layout_alignParentStart="false"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="27dp"
+                            android:layout_width="22dp" />
+
+
+                        <TextView
+                            android:text="N°2 Frigoriferi N°1 Televisore"
+                            android:id="@+id/textView16"
+                            android:paddingLeft="7dp"
+                            android:layout_alignTop="@+id/imageView14"
+                            android:layout_toRightOf="@+id/imageView14"
+                            android:textSize="14sp"
+                            android:textColor="#727272"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="2dp"
+                            android:paddingBottom="10dp" />
+
+                        <ImageView
+
+                            android:id="@+id/imageView14"
+                            app:srcCompat="@android:drawable/ic_menu_more"
+                            android:layout_below="@+id/imageView20"
+                            android:layout_toLeftOf="@+id/textView3"
+                            android:layout_toStartOf="@+id/textView3"
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:layout_marginTop="75dp" />
+
+
+
+
+
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            card_view:srcCompat="@android:drawable/ic_menu_recent_history"
+                            android:layout_alignStart="@+id/imageView3"
+                            android:id="@+id/imageView5"
+                            android:layout_marginTop="46dp"
+                            android:layout_toLeftOf="@+id/primoRifiuto"
+                            android:layout_toStartOf="@+id/primoRifiuto" />
+
+                        <TextView
+                            android:text="Ora ritiro: 6:00"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView3"
+                            android:paddingTop="3dp"
+                            android:paddingLeft="7dp"
+                            android:textSize="14sp"
+                            android:layout_toRightOf="@+id/imageView3"
+                            android:layout_toEndOf="@+id/imageView3"
+                            android:layout_below="@+id/primoRifiuto"
+                            android:textColor="#727272"
+                            android:layout_alignBottom="@+id/imageView5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            card_view:srcCompat="@drawable/modifica"
+                            android:drawableRight="@drawable/modifica"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:id="@+id/rimuovi"
+                            android:layout_marginTop="19dp"
+                            android:layout_marginLeft="280dp"
+                            android:onClick="modificaData" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            card_view:srcCompat="@drawable/delete"
+                            android:drawableRight="@drawable/delete"
+                            android:layout_below="@+id/catPrimoRifiuto"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="280dp"
+                            android:id="@+id/aggiungirifiuto"
+
+                            android:layout_marginTop="53dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/prova1">
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
